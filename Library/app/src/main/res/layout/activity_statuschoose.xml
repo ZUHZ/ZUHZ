@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.ac.sookmyung.library.statuschoose">
+
+    <Button
+        android:id="@+id/btn_librarian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사서"/>
+
+    <Button
+        android:id="@+id/btn_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="학생"
+        android:layout_below="@+id/btn_librarian" />
+
+
+</RelativeLayout>

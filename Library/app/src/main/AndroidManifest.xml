@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.ac.sookmyung.library" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".statuschoose"
+            android:label="@string/title_activity_statuschoose" >
+        </activity>
+        <activity
+            android:name=".login_librarian"
+            android:label="@string/title_activity_login_librarian" >
+        </activity>
+        <activity
+            android:name=".login_student"
+            android:label="@string/title_activity_login_student" >
+        </activity>
+        <activity
+            android:name=".account_librarian"
+            android:label="@string/title_activity_account_librarian" >
+        </activity>
+        <activity
+            android:name=".account_student"
+            android:label="@string/title_activity_account_student" >
+        </activity>
+        <activity
+            android:name=".main_librarian"
+            android:label="@string/title_activity_main_librarian" >
+        </activity>
+        <activity
+            android:name=".main_student"
+            android:label="@string/title_activity_main_student" >
+        </activity>
+    </application>
+
+</manifest>

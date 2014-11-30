@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Library</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_statuschoose">statuschoose</string>
+    <string name="title_activity_login_librarian">login_librarian</string>
+    <string name="title_activity_login_student">login_student</string>
+    <string name="title_activity_account_librarian">account_librarian</string>
+    <string name="title_activity_account_student">account_student</string>
+    <string name="title_activity_main_librarian">main_librarian</string>
+    <string name="title_activity_main_student">main_student</string>
+
+</resources>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.ac.sookmyung.library.main_librarian">
+
+    <Button
+        android:id="@+id/btn_new_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="새로운 도서 등록"/>
+
+    <Button
+        android:id="@+id/btn_update_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="도서 정보 갱신"
+        android:layout_below="@+id/btn_new_book" />
+
+    <Button
+        android:id="@+id/btn_delete_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="도서 정보 삭제"
+        android:layout_below="@+id/btn_update_book"/>
+
+    <Button
+        android:id="@+id/btn_show_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전체 도서 조회"
+        android:layout_below="@+id/btn_delete_book" />
+
+
+
+</LinearLayout>
